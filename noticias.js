@@ -1,3 +1,4 @@
+//Utilizei o material de apoio para relembrar a Estrutura de classes
 class Jornalista{
     constructor(foto,nome){
         this.foto = foto;
@@ -30,3 +31,5 @@ const Encontro = new Jornalista('Fatima Bernardes','Tvglobinho.webp')
 var Noticias= [Lula,Bolsonaro,Eneas];
 var Jornalistas = [GrandePerda,Ancora,Encontro];
 
+console.log(Noticias);
+console.log(Jornalistas);
