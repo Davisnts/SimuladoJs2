@@ -24,12 +24,10 @@ class Noticia extends Jornalista{
 const Lula = new Noticia('Jair Bolsonaro' ,'milicia.jpg',157);
 const Bolsonaro = new Noticia('Luiz Inacio','calango.jpg',171);
 const Eneas = new Noticia('Bomba','Nuclear',5656);
-const GrandePerda = new Jornalista('Ricardo Eugênio Boechat','Ricardo.jpg')
-const Ancora = new Jornalista('Willian Bonner','Bonner.png')
-const Encontro = new Jornalista('Fatima Bernardes','Tvglobinho.webp')
+const JornalistaFamoso = new Jornalista('Ricardo Eugênio Boechat','Ricardo.jpg')
 
-var Noticias= [Lula,Bolsonaro,Eneas];
-var Jornalistas = [GrandePerda,Ancora,Encontro];
+var Noticias = [Lula,Bolsonaro,Eneas];
+console.log (Noticias);
+console.log (JornalistaFamoso);
 
-console.log(Noticias);
-console.log(Jornalistas);
+console.log (Noticias.slice(1,2));
