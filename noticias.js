@@ -40,7 +40,8 @@ const Encontro = new Jornalista('Fatima Bernardes','Tvglobinho.webp')
 var Noticias = [Lula,Bolsonaro,Eneas];
 //Criar um array chamado Jornalistas e inserir nele 3 nomes de jornalistas da subclasse JORNALISTA do item 7 acima;
 var Jornalistas = [JornalistaFamoso,Ancora,Encontro]
-console.log (Noticias);
+console.log (Lula);
 console.log (JornalistaFamoso);
 //Utilizando o recurso de Regex, criar algum classe/objeto ou function que faça sentido com a utilização prática do regex nestes 2 arrays.
 console.log (Noticias.slice(1,2)); // Mostra Apenas uma Noticia
+
